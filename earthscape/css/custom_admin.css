@@ -1,0 +1,47 @@
+/* custom_admin.css */
+
+/* Change the background color of the admin header */
+.header {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+/* Customize the admin title */
+.header h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Modify the login page */
+body.login {
+    background-color: #f1f1f1;
+}
+
+/* Custom styling for form fields */
+.form-row {
+    margin-bottom: 15px;
+}
+
+/* Change the color of the 'Save' button */
+.submit-row input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+}
+
+/* Customize the list page items */
+.module.aligned .fieldset-group {
+    border: 1px solid #007BFF;
+}
+
+/* Add padding and modify text for the list view */
+.module .field-box {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Style the search input */
+input.search-input {
+    border-radius: 4px;
+    border: 2px solid #0066cc;
+}
